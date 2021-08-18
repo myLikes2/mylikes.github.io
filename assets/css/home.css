@@ -140,18 +140,18 @@ html {
 .testimonials {
   display: flex;
   justify-content: start;
+  flex-shrink: 1;
   padding-top: 5%;
   color: white;
 }
 
 .even-spacing {
-  margin-left: 5%;
   text-align: center;
 }
 
 .testimonials h1 {
   padding-bottom: 10px;
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .services-nav-container {
@@ -160,16 +160,91 @@ html {
   color: white;
 }
 
+.services-text h3 {
+  font-size: 1.5rem;
+}
+
 .services-btn-container {
-  margin-left: 13%;
-  margin-top: 1%;
+  margin-top: 1%; 
+  display: flex;
+  justify-content: start;
 }
 
 .mid-serv-btn {
   width: 120px;
-  background-color: white;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 500;
 }
 
 .mid-serv-btn:hover {
   box-shadow: 0 3px 10px #fff;
+  cursor: pointer;
+}
+
+.our-quality-container {
+  width: 100vw;
+  height: 40%;
+  margin-top: 5%;
+}
+
+.quality-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.contents-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(110, 109, 109, 0.678);
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+
+.price-container, .variety-container, .speed-container, .support-container {
+  width: 25%;
+  flex-wrap: wrap;
+}
+
+.even-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.even-margin {
+  margin-top: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.price-icon img, .variety-icon img, .speed-icon img, .support-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.footer-copyrights {
+  margin-right: 5%;
 }
