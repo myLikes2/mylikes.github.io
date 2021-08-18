@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.navbar-container {
+  position: sticky;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-shadow: 0 3px 10px #eaeaea;
+}
+
+.brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.brand-logo-container h2 {
+  cursor: pointer;
+}
+
+.brand-logo-container h2:hover {
+  color: tomato;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: fill;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-btn, .contact-btn, .home-btn {
+  width: 70px;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid tomato;
+  color: black;
+  font-weight: 500;
+}
+
+.services-btn:hover, .home-btn:hover, .contact-btn:hover {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.active-btn {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Hero Container*/
+
+.hero-container {
+  width: 100vw;
+  height: 70vh;
+  background-image: url('/assets/bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+.hero-content {
+  padding: 10% ;
+}
+
+.hero-content-text {
+  padding: 10px;
+}
+
+.hero-content-text span{
+  color: tomato;
+}
+
+.hero-content-text p {
+  padding: 10px;
+}
+
+.contact-btn-container {
+  margin-left: 10px;
+}
+
+.hero-contact-btn {
+  width: 120px;
+}
+
+.seperator {
+  width: 100vw;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+
+.middle-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/assets/middle-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: start;
+  padding-top: 5%;
+  color: white;
+}
+
+.even-spacing {
+  margin-left: 5%;
+  text-align: center;
+}
+
+.testimonials h1 {
+  padding-bottom: 10px;
+  font-size: 3rem;
+}
+
+.services-nav-container {
+  margin-left: 15%;
+  margin-top: 3%;
+  color: white;
+}
+
+.services-btn-container {
+  margin-left: 13%;
+  margin-top: 1%;
+}
+
+.mid-serv-btn {
+  width: 120px;
+  background-color: white;
+}
+
+.mid-serv-btn:hover {
+  box-shadow: 0 3px 10px #fff;
+}
