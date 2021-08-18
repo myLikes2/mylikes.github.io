@@ -89,7 +89,7 @@ html {
 .hero-container {
   width: 100vw;
   height: 70vh;
-  background-image: url('/assets/bg.png');
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,7 +130,7 @@ html {
 .middle-container {
   width: 100vw;
   height: 100vh;
-  background-image: url('/assets/middle-bg.png');
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/middle-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
