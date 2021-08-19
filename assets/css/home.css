@@ -52,6 +52,12 @@ html {
 .buttons-container {
   display: flex;
   flex-direction: row;
+  /* display: none; */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
 }
 
 .services-btn, .contact-btn, .home-btn {
@@ -86,11 +92,17 @@ html {
   outline: none;
 }
 
+.toggle-btn {
+  font-size: 30px;
+  color: tomato;
+  display: none;
+}
+
 /* Hero Container*/
 
 .hero-container {
   width: 100vw;
-  height: 70vh;
+  height: 100%;
   background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/bg.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -131,8 +143,8 @@ html {
 }
 
 .middle-container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/middle-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -145,6 +157,7 @@ html {
   justify-content: start;
   flex-shrink: 1;
   padding-top: 5%;
+  padding-left: 2%;
   color: white;
 }
 
@@ -196,6 +209,7 @@ html {
   width: 100vw;
   height: 40%;
   margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 .quality-content {
@@ -211,13 +225,13 @@ html {
   width: 80%;
   height: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 3%;
 }
 
 .price-container, .variety-container, .speed-container, .support-container {
-  width: 25%;
+  width: 200px;
   flex-wrap: wrap;
 }
 
@@ -241,9 +255,11 @@ html {
 
 .contact-us-container {
   width: 100vw;
-  height: 60vh;
+  height: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
   align-items: center;
   background-position: center;
   background-size: 150%;
@@ -303,13 +319,92 @@ html {
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   padding-left: 2%;
   box-shadow: 0 3px 10px #4d4d4d;
 }
 
+.footer-image {
+  color: tomato;
+  cursor: pointer;
+}
+
+.footer-image:hover {
+  color: black;
+}
+
 .footer-copyrights {
   margin-right: 5%;
+}
+
+
+@media only screen and (max-width:450px) {
+
+  .buttons {
+    display: none;
+  }
+
+  .home-btn, .services-btn, .contact-btn {
+    margin-bottom: 10px;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .toggle-block-btn {
+    display: block;
+  }
+
+  .hero-container {
+    padding-top: 20%;
+  }
+
+  .services-text-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contents-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-nav-container {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .services-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-text h3 {
+    text-align: center;
+  }
+
+  .contact-text h3{
+    font-size: 4vw;
+  }
+
+  .footer-image {
+    padding-top: 10px;
+  }
+
+  .footer-copyrights {
+    padding-bottom: 10px;
+    font-size: 4vw;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;  
+  }
+
 }
 
 

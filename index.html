@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/my-likes-logo.png">
+  <meta name="description" content="My Like - Up lift your Social Status in minutes">
+  <meta name="author" content="Uk Grafix">
+  <meta property = "og:title" content="My Likes">
+  <meta property="og:site_name" content="My Likes">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://mylikes2.github.io/mylikes.github.io/assets/social-bg.jpg">
+  <link rel="icon" href="./assets/favicon.ico">
   <link rel="stylesheet" href="./assets/css/home.css">
   <title>My Likes</title>
 </head>
@@ -16,14 +22,21 @@
           <h2>My Likes</h2>
         </div>
         <div class="buttons-container">
-          <div class="home-btn active-btn">
-            Home
+          <div class="buttons">
+            <div class="home-btn active-btn">
+              Home
+            </div>
+            <div class="services-btn">
+              Services
+            </div>
+            <div class="contact-btn">
+              Contact
+            </div>
           </div>
-          <div class="services-btn">
-            Services
-          </div>
-          <div class="contact-btn">
-            Contact
+          <div onclick="menuToggle()" class="toggle-btn-container">
+            <div class="toggle-btn">
+              &#9776;
+            </div>
           </div>
         </div>
       </div>
@@ -204,5 +217,7 @@
     </div>
 
   </div>
+
+  <script src="./assets/script/home.js"></script>
 </body>
 </html>
