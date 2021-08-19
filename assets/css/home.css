@@ -13,8 +13,9 @@ html {
 }
 
 .navbar-container {
-  position: sticky;
+  position: fixed;
   width: 100vw;
+  background-color: white;
 }
 
 .navbar {
@@ -33,10 +34,11 @@ html {
 
 .brand-logo-container h2 {
   cursor: pointer;
+  color: tomato;
 }
 
 .brand-logo-container h2:hover {
-  color: tomato;
+  color: black;
 }
 
 
@@ -53,7 +55,7 @@ html {
 }
 
 .services-btn, .contact-btn, .home-btn {
-  width: 70px;
+  width: 110px;
   height: 30px;
   margin-right: 20px;
   text-align: center;
@@ -95,6 +97,7 @@ html {
   background-size: cover;
   object-fit: cover;
   background-attachment: fixed;
+  padding-top: 10%;
 }
 
 .hero-content {
@@ -236,6 +239,65 @@ html {
   height: 50px;
 }
 
+.contact-us-container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: 150%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-image: url('/assets/social-bg.jpg');
+}
+
+.contact-us-container:hover {
+  background-size: 100%;
+  -webkit-transition: all 0.3s ease-in-out ;
+}
+
+.contact-us {
+  padding: 30px;
+  height: 20%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.contact-text h3 {
+  font-size: 2vw;
+}
+
+.contact-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us-btn{
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-us-btn:hover {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+  box-shadow: 0 3px 10px rgba(110, 109, 109, 0.678);
+}
+
+.btn-spacing {
+  margin-left: 20px;
+}
+
+
 .footer-container {
   width: 100vw;
   height: 10vh;
@@ -243,8 +305,25 @@ html {
   justify-content: space-between;
   align-items: center;
   padding-left: 2%;
+  box-shadow: 0 3px 10px #4d4d4d;
 }
 
 .footer-copyrights {
   margin-right: 5%;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.678);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: tomato;
+  border-radius: 10px;
 }
