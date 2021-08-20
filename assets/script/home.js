@@ -20,3 +20,7 @@ function homeNav() {
 function contactNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
 }
+
+function telegramNavigator() {
+  location.href = 'https://telegram.me/mylikes2'
+}
