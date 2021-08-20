@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/social-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+/* Navbar Container */
+
+.navbar-container {
+  width: 100vw;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-shadow: 0 3px 10px #eaeaea;
+}
+
+.brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.brand-logo-container h2 {
+  cursor: pointer;
+  color: tomato;
+}
+
+.brand-logo-container h2:hover {
+  color: black;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: fill;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  /* display: none; */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-btn, .contact-btn, .home-btn {
+  width: 110px;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid tomato;
+  color: black;
+  font-weight: 500;
+}
+
+.services-btn:hover, .home-btn:hover, .contact-btn:hover {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.active-btn {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggle-btn {
+  font-size: 30px;
+  color: tomato;
+  display: none;
+}
+
+/* Contact Container */
+
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-cards {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.418);
+  display: flex;
+  border-radius: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.whatsapp-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  background-image: url('/assets/whatsapp-bg.jpg');
+  border-top-left-radius: 20px;
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+.whatsapp-container:hover {
+  background-color: #C2C2C2;
+  background-position: center;
+  -webkit-transition: all 0.3s ease-in-out ;
+  background-size: 150%;
+}
+
+.mail-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.strong-font {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.whatsapp-btn {
+  background-image: url('/assets/icons/whatsapp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+
+.mail-title {
+  padding-top: 20px;
+}
+
+form {
+  margin-top: 20px;
+  position: relative;
+}
+
+.name-container, .email-container,
+.phone-container, .message-container {
+  position: relative;
+}
+
+.form-inputs {
+  background: transparent;
+  width: 300px;
+  height: 55px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+.message-height {
+  height: 100px;
+}
+
+.labels {
+  position: absolute;
+  top:30%;
+  left: 3%;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inputs {
+  position: absolute;
+  top: 30%;
+  margin-left: 10px;
+  width: 92%;
+  height: 20px;
+  border: none;
+}
+
+.inputs-large {
+  height: 50px;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.inputs:focus ~ .labels, .inputs:visited ~ .labels {
+  transform: translateY(-17px);
+  outline: none;
+  border: none;
+}
+
+
+/* Footer Container */
+
+.footer-container {
+  display: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2%;
+  background-color: white;
+  box-shadow: 0 3px 10px #4d4d4d;
+}
+
+.footer-image {
+  color: tomato;
+  cursor: pointer;
+}
+
+.footer-image:hover {
+  color: black;
+}
+
+.footer-copyrights {
+  margin-right: 5%;
+}
+
+/* Responsive Window */
+
+
+@media only screen and (max-width:450px) {
+
+  .buttons {
+    display: none;
+  }
+
+  .home-btn, .services-btn, .contact-btn {
+    margin-bottom: 10px;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .toggle-block-btn {
+    display: block;
+  }
+
+  .hero-container {
+    padding-top: 20%;
+  }
+
+  .services-text-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contents-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-nav-container {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .services-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .services-text h3 {
+    text-align: center;
+  }
+
+  .contact-text h3{
+    font-size: 4vw;
+  }
+
+  .contact-cards {
+    flex-direction: column;
+  }
+
+  .footer-image {
+    padding-top: 10px;
+  }
+
+  .footer-copyrights {
+    padding-bottom: 10px;
+    font-size: 4vw;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;  
+  }
+
+}
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.678);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: tomato;
+  border-radius: 10px;
+}
+
