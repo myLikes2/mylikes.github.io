@@ -10,6 +10,12 @@
     - Desktop
  - Hamburger Menu for Mobile and Tablet Users.
 
+## Updates
+ - Home with Responsiveness
+ - Contact with Responsivess
+    - Whatsapp Contact
+    - Mail Contact 
+
 ## Bugs Fixed
 > InResponsive View Port Height for all the Containers
 > Buttons Size for Small Devices Views
