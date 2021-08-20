@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <title>My Likes - Contact</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="brand-logo-container">
+          <h2>My Likes</h2>
+        </div>
+        <div class="buttons-container">
+          <div class="buttons">
+            <div class="home-btn active-btn">
+              Home
+            </div>
+            <div class="services-btn">
+              Services
+            </div>
+            <div class="contact-btn">
+              Contact
+            </div>
+          </div>
+          <div onclick="menuToggle()" class="toggle-btn-container">
+            <div class="toggle-btn">
+              &#9776;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-cards">
+        <div class="whatsapp-container">
+          <div class="whatsapp-title strong-font">
+            WhatsApp Us
+          </div>
+          <div class="whatsapp-btn">
+          </div>
+        </div>
+        <div class="mail-container">
+          <div class="mail-title strong-font">
+            Mail Us
+          </div>
+          <div class="mail-form">
+            <form>
+              <div class="name-container form-inputs">
+                <input name="name" type="text" class="inputs" required>
+                <label class="labels" for="name">Enter your Name</label>
+              </div>
+              <div class="email-container form-inputs">
+                <input name="email" type="text" class="inputs" required>
+                <label class="labels" for="email">Email Address</label>
+              </div>
+              <div class="phone-container form-inputs">
+                <input name="phone" type="text" class="inputs" required>
+                <label class="labels" for="phone">Mobile Number</label>
+              </div>
+              <div class="message-container form-inputs message-height">
+                <input name="message" type="text" class="inputs inputs-large" required>
+                <label class="labels" for="message">Message</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer-container">
+      <div class="footer-image">
+        <h4>My Likes</h4>
+      </div>
+      <div class="footer-copyrights">
+        © Copyright My Likes. All Rights Reserved.
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./assets/script/home.js"></script>
+</body>
+</html>
