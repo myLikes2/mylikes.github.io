@@ -7,18 +7,16 @@ const contactButton = document.querySelector('#contact-btn')
 
 //Contact Page//
 
-const homeButton = document.querySelector('#contact-pg-home-btn')
 
 function menuToggle() {
   menuButtons.classList.toggle('toggle-block-btn')
 }
 
-homeButton.addEventListener('click', () => {
+function homeNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/'
-})
+}
 
 
-
-contactButton.addEventListener('click', () => {
+function contactNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
-})
+}
