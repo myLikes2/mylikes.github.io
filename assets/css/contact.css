@@ -131,7 +131,7 @@ html {
   justify-content: center;
 }
 
-.whatsapp-container {
+.telegram-container {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -147,7 +147,7 @@ html {
   border-right: 1px solid rgba(0, 0, 0, 0.363);
 }
 
-.whatsapp-container:hover {
+.telegram-container:hover {
   background-color: #C2C2C2;
   background-position: center;
   -webkit-transition: all 0.3s ease-in-out ;
@@ -167,8 +167,8 @@ html {
   font-weight: 500;
 }
 
-.whatsapp-btn {
-  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/icons/whatsapp.png');
+.telegram-btn {
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/icons/telegram.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,7 +336,7 @@ form {
     height: 50px;
   }
 
-  .whatsapp-container {
+  .telegram-container {
     border-bottom-left-radius: 0;
     border-top-right-radius: 20px;
   }

@@ -9,12 +9,14 @@
     - Tablet
     - Desktop
  - Hamburger Menu for Mobile and Tablet Users.
+ - Telegram Contact Feature
 
 ## Updates
  - Home with Responsiveness
  - Contact with Responsivess
     - Whatsapp Contact
-    - Mail Contact 
+    - Mail Contact
+ - Migrated to Telegram from Whatsapp 
 
 ## Bugs Fixed
 > InResponsive View Port Height for all the Containers
