@@ -140,7 +140,7 @@ html {
   width: 100%;
   color: white;
   cursor: pointer;
-  background-image: url('/assets/whatsapp-bg.jpg');
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/whatsapp-bg.jpg');
   border-top-left-radius: 20px;
   background-position: center;
   border-bottom-left-radius: 20px;
@@ -168,7 +168,7 @@ html {
 }
 
 .whatsapp-btn {
-  background-image: url('/assets/icons/whatsapp.png');
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/icons/whatsapp.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
