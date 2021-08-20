@@ -93,6 +93,7 @@ html {
   cursor: pointer;
   outline: none;
 }
+
 .active-btn {
   box-shadow: 0 3px 10px #c5c5c5;
   background-color: tomato;
@@ -158,7 +159,6 @@ html {
   flex: 1;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
 }
 
@@ -182,6 +182,10 @@ html {
 
 .mail-title {
   padding-top: 20px;
+}
+
+.mail-form {
+  display: flex;
 }
 
 form {
@@ -218,11 +222,12 @@ form {
 
 .inputs {
   position: absolute;
-  top: 30%;
+  top: 40%;
   margin-left: 10px;
   width: 92%;
   height: 20px;
   border: none;
+  background-color: white;
 }
 
 .inputs-large {
@@ -230,13 +235,31 @@ form {
 }
 
 .inputs:focus {
+  background-color: white;
   outline: none;
 }
 
-.inputs:focus ~ .labels, .inputs:visited ~ .labels {
-  transform: translateY(-17px);
+.inputs:focus ~ .labels, .inputs:valid ~ .labels {
+  transform: translateY(-15px);
+  font-size: .8rem;
   outline: none;
   border: none;
+}
+
+.send-btn {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.527);
+}
+
+.send-btn:focus {
+  background-color: white;
+  border: 1px solid tomato;
 }
 
 
@@ -271,8 +294,60 @@ form {
 
 /* Responsive Window */
 
+@media only screen and (max-width:780px) {
+  
+  html {
+    overflow-x: hidden;
+  }
+
+  .form-inputs {
+    width: 230px;
+  }
+  
+  .inputs {
+    width: 60%;
+  }
+
+  .form-inputs {
+    margin-bottom: 10px;
+  }
+}
 
 @media only screen and (max-width:450px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  form {
+    margin: 5px;
+  }
+
+  .mail-title {
+    font-size: 1rem;
+  }
+
+  .name-container, .email-container {
+    display: none;
+  }
+
+  .form-inputs {
+    width: 200px;
+    height: 50px;
+  }
+
+  .whatsapp-container {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+  }
+  
+  .inputs {
+    width: 60%;
+  }
+
+  .inputs-large {
+    height: 20px;
+  }
 
   .buttons {
     display: none;
@@ -341,6 +416,8 @@ form {
     display: flex;
     flex-direction: column;  
   }
+
+
 
 }
 
