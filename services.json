@@ -1,0 +1,84 @@
+{
+  "instagram" : [
+    {
+      "id" : 1,
+      "serviceName" : "Instagram Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "25minutes"
+    },
+    {
+      "id" : 2,
+      "serviceName" : "Instagram UK Country Comments",
+      "price" : "6.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "8hrs"
+    },
+    {
+      "id" : 3,
+      "serviceName" : "Instagram SA Country Comments",
+      "price" : "5.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "5hrs"
+    },
+    {
+      "id" : 4,
+      "serviceName" : "Instagram LB Country Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "11hrs"
+    },
+    {
+      "id" : 5,
+      "serviceName" : "Instagram Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "13",
+      "minQty" : "50",
+      "maxQty" : "3000",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 6,
+      "serviceName" : "Instagram Followers (US/EUROPE) REAL - NON DROP",
+      "price" : "32",
+      "minQty" : "50",
+      "maxQty" : "1500",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 7,
+      "serviceName" : "Instagram Views (US/EUROPE) REAL - NON DROP",
+      "price" : "3",
+      "minQty" : "100",
+      "maxQty" : "4000",
+      "time" : "1.5hrs"
+    },
+    {
+      "id" : 8,
+      "serviceName" : "Instagram Comments (US/EUROPE) REAL - NON DROP",
+      "price" : "100",
+      "minQty" : "5",
+      "maxQty" : "1000",
+      "time" : "7 Days"
+    },
+    {
+      "id" : 9,
+      "serviceName" : "Instagram Followers (US) REAL",
+      "price" : "30",
+      "minQty" : "1000",
+      "maxQty" : "8000",
+      "time" : "6 Days"
+    },
+    {
+      "id" : 10,
+      "serviceName" : "Instagram Followers (IN) REAL",
+      "price" : "14",
+      "minQty" : "500",
+      "maxQty" : "5000",
+      "time" : "6 Days"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+
+/* Navbar Container*/
+
+.navbar-container {
+  /* position: block; */
+  width: 100%;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-shadow: 0 3px 10px #eaeaea;
+}
+
+.brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.brand-logo-container h2 {
+  cursor: pointer;
+  color: tomato;
+}
+
+.brand-logo-container h2:hover {
+  color: black;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: fill;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  /* display: none; */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-btn, .contact-btn, .home-btn {
+  width: 110px;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid tomato;
+  color: black;
+  font-weight: 500;
+}
+
+.services-btn:hover, .home-btn:hover, .contact-btn:hover {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.active-btn {
+  box-shadow: 0 3px 10px #c5c5c5;
+  background-color: tomato;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggle-btn {
+  font-size: 30px;
+  color: tomato;
+  display: none;
+}
+
+/* Services Container */
+
+.services-container {
+  padding-bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  width: 70%;
+  margin-top: 3%;
+  /* background-color: white; */
+}
+
+.services-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.services-table {
+  margin-top: 2%;
+}
+
+.headers-list {
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: white;
+  /* box-shadow: 0 3px 10px rgb(148, 146, 146); */
+}
+
+.headers-list li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.headers-active {
+  background-color: tomato;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-right: .5px solid #ffffff;
+  cursor: pointer;
+}
+
+.header-inactive {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: black;
+  border-right: .5px solid #ffffff;
+  background-color: rgba(255, 99, 71, 0.685);
+  cursor: default;
+}
+
+table {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(148, 146, 146);=
+}
+
+.view-btn {
+  background-color: tomato;
+  color: white;
+  font-weight: 500;
+  border-radius: 30px;  
+  padding-left: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 15px 0;
+  text-align: center;
+}
+
+
+.footer-container {
+  display: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2%;
+  background-color: white;
+  box-shadow: 0 3px 10px #4d4d4d;
+}
+
+.footer-image {
+  color: tomato;
+  cursor: pointer;
+}
+
+.footer-image:hover {
+  color: black;
+}
+
+.footer-copyrights {
+  margin-right: 5%;
+}
