@@ -25,6 +25,12 @@
     - TikTok
    are added with color switches.
 
+## Upcoming
+ - Favicon and OG for all Pages
+ - Full JSON with database
+ - Email Field Hover color
+ - Call Action on each Service
+
 ## Bugs Fixed
 > InResponsive View Port Height for all the Containers
 > Buttons Size for Small Devices Views
