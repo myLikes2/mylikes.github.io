@@ -17,7 +17,7 @@
         </div>
         <div class="buttons-container">
           <div class="buttons">
-            <div id="home-btn" class="home-btn">
+            <div onclick="homeNav()" id="home-btn" class="home-btn">
               Home
             </div>
             <div id="services-btn" class="services-btn active-btn">
@@ -46,15 +46,15 @@
         <div class="services-table">
           <div class="table-headers">
             <ul class="headers-list">
-              <li class="headers-active">Instagram</li>
-              <li class="header-inactive">Facebook</li>
-              <li class="header-inactive">Youtube</li>
-              <li class="header-inactive">TikTok</li>
+              <li class="headers-active " id="insta-btn" onclick="getInstagram()">Instagram</li>
+              <li class="header-inactive" id="facebook-btn" onclick="getFacebook()">Facebook</li>
+              <li class="header-inactive" id="youtube-btn" onclick="getYoutube()">Youtube</li>
+              <li class="header-inactive" id="tiktok-btn" onclick="getTikTok()">TikTok</li>
             </ul>
           </div>
 
-          <table>
-            <tr>
+          <table id='service-table'>
+            <tr class="titles-table">
               <th>ID</th>
               <th>Service Name</th>
               <th>Price</th>
@@ -62,210 +62,36 @@
               <th>Max Qty</th>
               <th>Action</th>
             </tr>
-            <tr>
+            <!-- <tr id="service-row">
               <td class="small-width">1</td>
               <td>Instagram Likes</td>
               <td class="medium-width">$5</td>
               <td>1000</td>
               <td>1000</td>
               <td class="view-btn">View</td>
+            </tr> -->
+            <!-- <tr id="instagram-row">
+              
+            </tr>  -->
+            <!--
+            <tr id="facebook-row">
+              
             </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
+
+            <tr id="youtube-row">
+              
             </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
-            <tr>
-              <td class="small-width">1</td>
-              <td>Instagram Likes</td>
-              <td class="medium-width">$5</td>
-              <td>1000</td>
-              <td>1000</td>
-              <td class="view-btn">View</td>
-            </tr>
+
+            <tr id="tiktok-row">
+              
+            </tr> -->
+
           </table>
 
 
         </div>
+
+        <h3 class="filler">Click on the Social Tab to View the Services</h3>
       </div>
     </div>
     

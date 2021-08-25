@@ -5,3 +5,7 @@ function contactNav() {
 function menuToggle() {
   menuButtons.classList.toggle('toggle-block-btn')
 }
+
+function serviceNav() {
+  location.href = 'https://mylikes2.github.io/mylikes.github.io/services.html'
+}

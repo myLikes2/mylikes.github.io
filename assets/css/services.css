@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  user-select: none;
   background-attachment: fixed;
 }
 
@@ -161,6 +162,7 @@ body {
   background-color: tomato;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  color: white;
   border-right: .5px solid #ffffff;
   cursor: pointer;
 }
@@ -171,13 +173,17 @@ body {
   color: black;
   border-right: .5px solid #ffffff;
   background-color: rgba(255, 99, 71, 0.685);
-  cursor: default;
+  cursor: pointer;
 }
 
 table {
   width: 100%;
   background-color: white;
   box-shadow: 0 3px 10px rgb(148, 146, 146);=
+}
+
+.titles-table {
+  border: 1px solid #000;
 }
 
 .view-btn {
@@ -199,12 +205,19 @@ td {
   text-align: center;
 }
 
+.filler {
+  margin-top: 10%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(148, 146, 146);
+}
+
 
 .footer-container {
-  display: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
-  height: 10vh;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;

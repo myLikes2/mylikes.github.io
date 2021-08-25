@@ -80,5 +80,252 @@
       "maxQty" : "5000",
       "time" : "6 Days"
     }
+  ],
+  "facebook" : [
+    {
+      "id" : 1,
+      "serviceName" : "Facebook Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "25minutes"
+    },
+    {
+      "id" : 2,
+      "serviceName" : "Facebook UK Country Comments",
+      "price" : "6.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "8hrs"
+    },
+    {
+      "id" : 3,
+      "serviceName" : "Facebook SA Country Comments",
+      "price" : "5.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "5hrs"
+    },
+    {
+      "id" : 4,
+      "serviceName" : "Facebook LB Country Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "11hrs"
+    },
+    {
+      "id" : 5,
+      "serviceName" : "Facebook Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "13",
+      "minQty" : "50",
+      "maxQty" : "3000",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 6,
+      "serviceName" : "Facebook Followers (US/EUROPE) REAL - NON DROP",
+      "price" : "32",
+      "minQty" : "50",
+      "maxQty" : "1500",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 7,
+      "serviceName" : "Facebook Views (US/EUROPE) REAL - NON DROP",
+      "price" : "3",
+      "minQty" : "100",
+      "maxQty" : "4000",
+      "time" : "1.5hrs"
+    },
+    {
+      "id" : 8,
+      "serviceName" : "Facebook Comments (US/EUROPE) REAL - NON DROP",
+      "price" : "100",
+      "minQty" : "5",
+      "maxQty" : "1000",
+      "time" : "7 Days"
+    },
+    {
+      "id" : 9,
+      "serviceName" : "Facebook Followers (US) REAL",
+      "price" : "30",
+      "minQty" : "1000",
+      "maxQty" : "8000",
+      "time" : "6 Days"
+    },
+    {
+      "id" : 10,
+      "serviceName" : "Facebook Followers (IN) REAL",
+      "price" : "14",
+      "minQty" : "500",
+      "maxQty" : "5000",
+      "time" : "6 Days"
+    }
+  ],
+  "youtube" : [
+    {
+      "id" : 1,
+      "serviceName" : "Youtube Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "25minutes"
+    },
+    {
+      "id" : 2,
+      "serviceName" : "Youtube UK Country Comments",
+      "price" : "6.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "8hrs"
+    },
+    {
+      "id" : 3,
+      "serviceName" : "Youtube SA Country Comments",
+      "price" : "5.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "5hrs"
+    },
+    {
+      "id" : 4,
+      "serviceName" : "Youtube LB Country Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "11hrs"
+    },
+    {
+      "id" : 5,
+      "serviceName" : "Youtube Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "13",
+      "minQty" : "50",
+      "maxQty" : "3000",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 6,
+      "serviceName" : "Youtube Subscribers (US/EUROPE) REAL - NON DROP",
+      "price" : "32",
+      "minQty" : "50",
+      "maxQty" : "1500",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 7,
+      "serviceName" : "Youtube Views (US/EUROPE) REAL - NON DROP",
+      "price" : "3",
+      "minQty" : "100",
+      "maxQty" : "4000",
+      "time" : "1.5hrs"
+    },
+    {
+      "id" : 8,
+      "serviceName" : "Youtube Comments (US/EUROPE) REAL - NON DROP",
+      "price" : "100",
+      "minQty" : "5",
+      "maxQty" : "1000",
+      "time" : "7 Days"
+    },
+    {
+      "id" : 9,
+      "serviceName" : "Youtube Subscribers (US) REAL",
+      "price" : "30",
+      "minQty" : "1000",
+      "maxQty" : "8000",
+      "time" : "6 Days"
+    },
+    {
+      "id" : 10,
+      "serviceName" : "Youtube Subscribers (IN) REAL",
+      "price" : "14",
+      "minQty" : "500",
+      "maxQty" : "5000",
+      "time" : "6 Days"
+    }
+  ],
+  "tiktok" : [
+    {
+      "id" : 1,
+      "serviceName" : "Tiktok Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "25minutes"
+    },
+    {
+      "id" : 2,
+      "serviceName" : "Tiktok UK Country Comments",
+      "price" : "6.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "8hrs"
+    },
+    {
+      "id" : 3,
+      "serviceName" : "Tiktok SA Country Comments",
+      "price" : "5.50",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "5hrs"
+    },
+    {
+      "id" : 4,
+      "serviceName" : "Tiktok LB Country Comments",
+      "price" : "6",
+      "minQty" : "1000",
+      "maxQty" : "1000",
+      "time" : "11hrs"
+    },
+    {
+      "id" : 5,
+      "serviceName" : "Tiktok Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "13",
+      "minQty" : "50",
+      "maxQty" : "3000",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 6,
+      "serviceName" : "Tiktok Followers (US/EUROPE) REAL - NON DROP",
+      "price" : "32",
+      "minQty" : "50",
+      "maxQty" : "1500",
+      "time" : "2hrs"
+    },
+    {
+      "id" : 7,
+      "serviceName" : "Tiktok Views (US/EUROPE) REAL - NON DROP",
+      "price" : "3",
+      "minQty" : "100",
+      "maxQty" : "4000",
+      "time" : "1.5hrs"
+    },
+    {
+      "id" : 8,
+      "serviceName" : "Tiktok Comments (US/EUROPE) REAL - NON DROP",
+      "price" : "100",
+      "minQty" : "5",
+      "maxQty" : "1000",
+      "time" : "7 Days"
+    },
+    {
+      "id" : 9,
+      "serviceName" : "Tiktok Followers (US) REAL",
+      "price" : "30",
+      "minQty" : "1000",
+      "maxQty" : "8000",
+      "time" : "6 Days"
+    },
+    {
+      "id" : 10,
+      "serviceName" : "Tiktok Followers (IN) REAL",
+      "price" : "14",
+      "minQty" : "500",
+      "maxQty" : "5000",
+      "time" : "6 Days"
+    }
   ]
+
 }

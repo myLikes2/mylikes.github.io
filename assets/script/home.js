@@ -16,6 +16,9 @@ function homeNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/'
 }
 
+function servicesNav() {
+  location.href = 'https://mylikes2.github.io/mylikes.github.io/services.html'
+}
 
 function telegramNavigator() {
   location.href = 'https://telegram.me/mylikes2'
