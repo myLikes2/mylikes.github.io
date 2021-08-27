@@ -1,3 +1,5 @@
+const menuButtons = document.querySelector('.buttons')
+
 function contactNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
 }

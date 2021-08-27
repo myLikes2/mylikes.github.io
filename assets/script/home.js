@@ -7,7 +7,6 @@ const contactButton = document.querySelector('#contact-btn')
 
 //Contact Page//
 
-
 function menuToggle() {
   menuButtons.classList.toggle('toggle-block-btn')
 }
@@ -22,4 +21,9 @@ function servicesNav() {
 
 function telegramNavigator() {
   location.href = 'https://telegram.me/mylikes2'
+}
+
+function contactNav() {
+  // location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
+  location.href = '/contact.html'
 }

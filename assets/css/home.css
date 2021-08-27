@@ -35,6 +35,7 @@ html {
 .brand-logo-container h2 {
   cursor: pointer;
   color: tomato;
+  user-select: none;
 }
 
 .brand-logo-container h2:hover {
@@ -52,10 +53,12 @@ html {
 .buttons-container {
   display: flex;
   flex-direction: row;
-  /* display: none; */
+  cursor: pointer;
+  user-select: none;
 }
 
 .buttons {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
 }
@@ -117,6 +120,7 @@ html {
 }
 
 .hero-content-text {
+  user-select: none;
   padding: 10px;
 }
 
@@ -129,6 +133,7 @@ html {
 }
 
 .contact-btn-container {
+  user-select: none;
   margin-left: 10px;
 }
 
@@ -159,6 +164,7 @@ html {
   padding-top: 5%;
   padding-left: 2%;
   color: white;
+  user-select: none;
 }
 
 .even-spacing {
@@ -174,6 +180,7 @@ html {
   margin-left: 15%;
   margin-top: 3%;
   color: white;
+  user-select: none;
 }
 
 .services-text h3 {
@@ -233,6 +240,7 @@ html {
 .price-container, .variety-container, .speed-container, .support-container {
   width: 200px;
   flex-wrap: wrap;
+  user-select: none;
 }
 
 .even-flex {
@@ -278,6 +286,7 @@ html {
   height: 20%;
   border-radius: 15px;
   background-color: white;
+  user-select: none;
 }
 
 .contact-text h3 {
@@ -300,6 +309,7 @@ html {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  user-select: none;
 }
 
 .contact-us-btn:hover {
@@ -328,6 +338,7 @@ html {
 .footer-image {
   color: tomato;
   cursor: pointer;
+  user-select: none;
 }
 
 .footer-image:hover {
@@ -335,6 +346,7 @@ html {
 }
 
 .footer-copyrights {
+  user-select: none;
   margin-right: 5%;
 }
 

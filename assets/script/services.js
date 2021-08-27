@@ -12,6 +12,16 @@ function homeNav() {
   location.href = 'https://mylikes2.github.io/mylikes.github.io/'
 }
 
+function contactNav() {
+  // location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
+  location.href = './contact.html'
+}
+
+const menuButtons = document.querySelector('.buttons')
+function menuToggle() {
+  menuButtons.classList.toggle('toggle-block-btn')
+}
+
 const filler = document.querySelector('.filler')
 
 
@@ -69,6 +79,7 @@ function getInstagram() {
 
           const instaName = document.createElement('TD')
           instaName.textContent = data.instagram[i].serviceName
+          instaName.classList.add('text-width')
 
           const instaPrice = document.createElement('TD')
           instaPrice.classList.add('medium-width')
@@ -76,14 +87,17 @@ function getInstagram() {
 
           const instaMin = document.createElement('TD')
           instaMin.textContent = data.instagram[i].minQty
+          instaMin.classList.add('text-width')
 
           const instaMax = document.createElement('TD')
           instaMax.textContent = data.instagram[i].maxQty
+          instaMax.classList.add('text-width')
 
           const instaTime = document.createElement('TD')
           instaTime.classList.add('view-btn')
           instaTime.textContent = data.instagram[i].time
-
+          
+             
           instaRow.appendChild(instaId)
           instaRow.appendChild(instaName)
           instaRow.appendChild(instaPrice)
@@ -151,6 +165,7 @@ function getFacebook() {
 
           const instaName = document.createElement('TD')
           instaName.textContent = data.facebook[i].serviceName
+          instaName.classList.add('text-width')
 
           const instaPrice = document.createElement('TD')
           instaPrice.classList.add('medium-width')
@@ -158,9 +173,11 @@ function getFacebook() {
 
           const instaMin = document.createElement('TD')
           instaMin.textContent = data.facebook[i].minQty
+          instaMin.classList.add('text-width')
 
           const instaMax = document.createElement('TD')
           instaMax.textContent = data.facebook[i].maxQty
+          instaMax.classList.add('text-width')
 
           const instaTime = document.createElement('TD')
           instaTime.classList.add('view-btn')
@@ -233,6 +250,7 @@ function getYoutube() {
 
           const instaName = document.createElement('TD')
           instaName.textContent = data.youtube[i].serviceName
+          instaName.classList.add('text-width')
 
           const instaPrice = document.createElement('TD')
           instaPrice.classList.add('medium-width')
@@ -240,9 +258,11 @@ function getYoutube() {
 
           const instaMin = document.createElement('TD')
           instaMin.textContent = data.youtube[i].minQty
+          instaMin.classList.add('text-width')
 
           const instaMax = document.createElement('TD')
           instaMax.textContent = data.youtube[i].maxQty
+          instaMax.classList.add('text-width')
 
           const instaTime = document.createElement('TD')
           instaTime.classList.add('view-btn')
@@ -315,6 +335,7 @@ function getTikTok() {
 
           const instaName = document.createElement('TD')
           instaName.textContent = data.tiktok[i].serviceName
+          instaName.classList.add('text-width')
 
           const instaPrice = document.createElement('TD')
           instaPrice.classList.add('medium-width')
@@ -322,9 +343,11 @@ function getTikTok() {
 
           const instaMin = document.createElement('TD')
           instaMin.textContent = data.tiktok[i].minQty
+          instaMin.classList.add('text-width')
 
           const instaMax = document.createElement('TD')
           instaMax.textContent = data.tiktok[i].maxQty
+          instaMax.classList.add('text-width')
 
           const instaTime = document.createElement('TD')
           instaTime.classList.add('view-btn')
@@ -342,4 +365,22 @@ function getTikTok() {
 
         }
       })
+}
+
+const model = document.querySelector('#model')
+let serviceTitle = document.querySelector('#service-title-text')
+let servicePrice = document.querySelector('#service-price-text')
+let serviceMin = document.querySelector('#service-min-text')
+let serviceMax = document.querySelector('#service-max-text')
+
+function modelOpen(serviceNameData, servicePriceData, serviceMinData, serviceMaxData) {
+  model.style.display = 'block'
+  serviceTitle.textContent = 'Service :' + serviceNameData
+  servicePrice.textContent = 'Price :' + servicePriceData
+  serviceMin.textContent = 'Min Qty :' + serviceMinData
+  serviceMax.textContent = 'Max Qty :' + serviceMaxData
+}
+
+function modelClose() {
+  model.style.display = 'none'
 }
