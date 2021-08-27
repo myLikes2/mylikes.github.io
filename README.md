@@ -11,6 +11,7 @@
  - Hamburger Menu for Mobile and Tablet Users.
  - Telegram Contact Feature
  - Services for Instagram, Facebook, Youtube, TikTok
+ - Easy Contact with Telegram Popup
 
 ## Updates
  - Home with Responsiveness
@@ -25,11 +26,12 @@
     - TikTok
    are added with color switches.
  - Services Table made responsive for all Screen Sizes.
+ - Hover Color for Email Inputs
+
 
 ## Upcoming
  - OG for all Pages
  - Full JSON with database
- - Email Field Hover color
  - Call Action on each Service
 
 ## Bugs Fixed
@@ -37,6 +39,9 @@
 > Buttons Size for Small Devices Views
 > Serviecs Footer Fixed Position
 > Services Table width Bug Fixed
+> Pan Image Zoom Bug Fixed
+> Speed Text Bug Fixed
+
 
 ## Live App
 https://mylikes2.github.io/mylikes.github.io/
