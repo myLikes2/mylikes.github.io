@@ -24,9 +24,10 @@
     - Youtube
     - TikTok
    are added with color switches.
+ - Services Table made responsive for all Screen Sizes.
 
 ## Upcoming
- - Favicon and OG for all Pages
+ - OG for all Pages
  - Full JSON with database
  - Email Field Hover color
  - Call Action on each Service
@@ -35,6 +36,7 @@
 > InResponsive View Port Height for all the Containers
 > Buttons Size for Small Devices Views
 > Serviecs Footer Fixed Position
+> Services Table width Bug Fixed
 
 ## Live App
 https://mylikes2.github.io/mylikes.github.io/

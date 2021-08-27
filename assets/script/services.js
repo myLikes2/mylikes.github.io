@@ -13,8 +13,7 @@ function homeNav() {
 }
 
 function contactNav() {
-  // location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
-  location.href = './contact.html'
+  location.href = 'https://mylikes2.github.io/mylikes.github.io/contact.html'
 }
 
 const menuButtons = document.querySelector('.buttons')
