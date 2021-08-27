@@ -1,0 +1,33 @@
+$white : #fff ;
+$boxShadow : rgba(0, 0, 0, 0.658);
+
+.telegram-popup-container {
+  position:fixed;
+  bottom: 80px;
+  right: 10px;
+
+  .telegram-popup {
+    width: 200px;
+    height: 40px;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    box-shadow: 0 3px 10px $boxShadow;
+    border-radius: 20px;
+    cursor: pointer;
+
+    .telegram-image img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .telegram-text {
+      user-select: none;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+  }
+}

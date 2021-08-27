@@ -40,6 +40,7 @@ html {
   justify-content: center;
   align-items: center;
   color: black;
+  user-select: none;
 }
 
 .brand-logo-container h2 {
@@ -179,8 +180,13 @@ html {
   height: 80px;
 }
 
+.telegram-title {
+  user-select: none;
+}
+
 
 .mail-title {
+  user-select: none;
   padding-top: 20px;
 }
 
@@ -241,6 +247,7 @@ form {
 
 .inputs:focus ~ .labels, .inputs:valid ~ .labels {
   transform: translateY(-15px);
+  color: tomato;
   font-size: .8rem;
   outline: none;
   border: none;
@@ -255,9 +262,11 @@ form {
   color: white;
   font-weight: 500;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.527);
+  cursor: pointer;
 }
 
 .send-btn:focus {
+  color: black;
   background-color: white;
   border: 1px solid tomato;
 }
@@ -282,6 +291,7 @@ form {
 .footer-image {
   color: tomato;
   cursor: pointer;
+  user-select: none;
 }
 
 .footer-image:hover {
@@ -289,6 +299,7 @@ form {
 }
 
 .footer-copyrights {
+  user-select: none;
   margin-right: 5%;
 }
 
@@ -324,6 +335,7 @@ form {
   }
 
   .mail-title {
+    user-select: none;
     font-size: 1rem;
   }
 

@@ -21,6 +21,11 @@ function menuToggle() {
   menuButtons.classList.toggle('toggle-block-btn')
 }
 
+
+function telegramNav() {
+  location.href = 'https://telegram.me/mylikes2'
+}
+
 const filler = document.querySelector('.filler')
 
 
@@ -95,7 +100,6 @@ function getInstagram() {
           const instaTime = document.createElement('TD')
           instaTime.classList.add('view-btn')
           instaTime.textContent = data.instagram[i].time
-          
              
           instaRow.appendChild(instaId)
           instaRow.appendChild(instaName)

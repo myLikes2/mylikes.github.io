@@ -261,6 +261,11 @@ html {
   height: 50px;
 }
 
+.speed-title-delivery h3 {
+  text-align: center;
+}
+
+
 .contact-us-container {
   width: 100vw;
   height: 100%;
@@ -273,6 +278,7 @@ html {
   background-size: 150%;
   object-fit: cover;
   background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease-in-out ;
   background-image: url('https://mylikes2.github.io/mylikes.github.io/assets/social-bg.jpg');
 }
 
@@ -290,6 +296,7 @@ html {
 }
 
 .contact-text h3 {
+  text-align: center;
   font-size: 2vw;
 }
 
@@ -314,7 +321,7 @@ html {
 
 .contact-us-btn:hover {
   background-color: white;
-  color: tomato;
+  color: black;
   border: 1px solid tomato;
   box-shadow: 0 3px 10px rgba(110, 109, 109, 0.678);
 }
