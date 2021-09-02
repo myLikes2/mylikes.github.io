@@ -50,6 +50,7 @@
 > Pan Image Zoom Bug Fixed
 > Speed Text Bug Fixed
 > JSON Typo Bug Fixed
+> Services Page Link Updated
 
 
 ## Live App
