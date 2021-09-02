@@ -2,329 +2,873 @@
   "instagram" : [
     {
       "id" : 1,
-      "serviceName" : "Instagram Comments",
-      "price" : "6",
+      "serviceName" : "Instagram Followers (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "25minutes"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 2,
-      "serviceName" : "Instagram UK Country Comments",
-      "price" : "6.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "8hrs"
+      "serviceName" : "Instagram Followers (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 3,
-      "serviceName" : "Instagram SA Country Comments",
-      "price" : "5.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "5hrs"
+      "serviceName" : "- Instagram Followers (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 4,
-      "serviceName" : "Instagram LB Country Comments",
-      "price" : "6",
+      "serviceName" : "Instagram Followers (ASIA) REAL - NON DROP ",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "11hrs"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 5,
-      "serviceName" : "Instagram Likes (US/EUROPE) REAL - NON DROP",
-      "price" : "13",
-      "minQty" : "50",
-      "maxQty" : "3000",
-      "time" : "2hrs"
+      "serviceName" : "Instagram Followers (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 6,
-      "serviceName" : "Instagram Followers (US/EUROPE) REAL - NON DROP",
-      "price" : "32",
-      "minQty" : "50",
-      "maxQty" : "1500",
-      "time" : "2hrs"
+      "serviceName" : "- Instagram Followers (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 7,
-      "serviceName" : "Instagram Views (US/EUROPE) REAL - NON DROP",
-      "price" : "3",
-      "minQty" : "100",
+      "serviceName" : "Instagram Followers (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
       "maxQty" : "4000",
-      "time" : "1.5hrs"
+      "time" : "72hrs"
     },
     {
       "id" : 8,
-      "serviceName" : "Instagram Comments (US/EUROPE) REAL - NON DROP",
-      "price" : "100",
-      "minQty" : "5",
-      "maxQty" : "1000",
-      "time" : "7 Days"
+      "serviceName" : "Instagram Followers (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 9,
-      "serviceName" : "Instagram Followers (US) REAL",
-      "price" : "30",
-      "minQty" : "1000",
+      "serviceName" : "- Instagram Followers (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
       "maxQty" : "8000",
-      "time" : "6 Days"
+      "time" : "48hrs"
     },
     {
       "id" : 10,
-      "serviceName" : "Instagram Followers (IN) REAL",
-      "price" : "14",
-      "minQty" : "500",
-      "maxQty" : "5000",
-      "time" : "6 Days"
+      "serviceName" : "Instagram Followers (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 11,
+      "serviceName" : "Instagram Followers (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 12,
+      "serviceName" : "- Instagram Followers (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 13,
+      "serviceName" : "Instagram Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 14,
+      "serviceName" : "Instagram Likes (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 15,
+      "serviceName" : "- Instagram Likes (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 16,
+      "serviceName" : "Instagram Likes (ASIA) REAL - NON DROP ",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 17,
+      "serviceName" : "Instagram Likes (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 18,
+      "serviceName" : "- Instagram Likes (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 19,
+      "serviceName" : "Instagram Likes (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 20,
+      "serviceName" : "Instagram Likes (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 21,
+      "serviceName" : "- Instagram Likes (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 22,
+      "serviceName" : "Instagram Likes (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 23,
+      "serviceName" : "Instagram Likes (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 24,
+      "serviceName" : "- Instagram Likes (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     }
   ],
   "facebook" : [
     {
       "id" : 1,
-      "serviceName" : "Facebook Comments",
-      "price" : "6",
+      "serviceName" : "Facebook Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "25minutes"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 2,
-      "serviceName" : "Facebook UK Country Comments",
-      "price" : "6.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "8hrs"
+      "serviceName" : "Facebook Likes (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 3,
-      "serviceName" : "Facebook SA Country Comments",
-      "price" : "5.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "5hrs"
+      "serviceName" : "- Facebook Likes (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 4,
-      "serviceName" : "Facebook LB Country Comments",
-      "price" : "6",
+      "serviceName" : "Facebook Likes (ASIA) REAL - NON DROP ",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "11hrs"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 5,
-      "serviceName" : "Facebook Likes (US/EUROPE) REAL - NON DROP",
-      "price" : "13",
-      "minQty" : "50",
-      "maxQty" : "3000",
-      "time" : "2hrs"
+      "serviceName" : "Facebook Likes (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 6,
-      "serviceName" : "Facebook Followers (US/EUROPE) REAL - NON DROP",
-      "price" : "32",
-      "minQty" : "50",
-      "maxQty" : "1500",
-      "time" : "2hrs"
+      "serviceName" : "- Facebook Likes (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 7,
-      "serviceName" : "Facebook Views (US/EUROPE) REAL - NON DROP",
-      "price" : "3",
-      "minQty" : "100",
+      "serviceName" : "Facebook Likes (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
       "maxQty" : "4000",
-      "time" : "1.5hrs"
+      "time" : "72hrs"
     },
     {
       "id" : 8,
-      "serviceName" : "Facebook Comments (US/EUROPE) REAL - NON DROP",
-      "price" : "100",
-      "minQty" : "5",
-      "maxQty" : "1000",
-      "time" : "7 Days"
+      "serviceName" : "Facebook Likes (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 9,
-      "serviceName" : "Facebook Followers (US) REAL",
-      "price" : "30",
-      "minQty" : "1000",
+      "serviceName" : "- Facebook Likes (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
       "maxQty" : "8000",
-      "time" : "6 Days"
+      "time" : "48hrs"
     },
     {
       "id" : 10,
-      "serviceName" : "Facebook Followers (IN) REAL",
-      "price" : "14",
-      "minQty" : "500",
-      "maxQty" : "5000",
-      "time" : "6 Days"
+      "serviceName" : "Facebook Likes (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 11,
+      "serviceName" : "Facebook Likes (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 12,
+      "serviceName" : "- Facebook Likes (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 13,
+      "serviceName" : "Facebook Friends (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 14,
+      "serviceName" : "Facebook Friends (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 15,
+      "serviceName" : "- Facebook Friends (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 16,
+      "serviceName" : "Facebook Friends (ASIA) REAL - NON DROP ",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 17,
+      "serviceName" : "Facebook Friends (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 18,
+      "serviceName" : "- Facebook Friends (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 19,
+      "serviceName" : "Facebook Friends (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 20,
+      "serviceName" : "Facebook Friends (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 21,
+      "serviceName" : "- Facebook Friends (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 22,
+      "serviceName" : "Facebook Friends (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 23,
+      "serviceName" : "Facebook Friends (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 24,
+      "serviceName" : "- Facebook Friends (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     }
   ],
   "youtube" : [
     {
       "id" : 1,
-      "serviceName" : "Youtube Comments",
-      "price" : "6",
+      "serviceName" : "Youtube Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "25minutes"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 2,
-      "serviceName" : "Youtube UK Country Comments",
-      "price" : "6.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "8hrs"
+      "serviceName" : "Youtube Likes (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 3,
-      "serviceName" : "Youtube SA Country Comments",
-      "price" : "5.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "5hrs"
+      "serviceName" : "- Youtube Likes (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 4,
-      "serviceName" : "Youtube LB Country Comments",
-      "price" : "6",
+      "serviceName" : "Youtube Likes (ASIA) REAL - NON DROP ",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "11hrs"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 5,
-      "serviceName" : "Youtube Likes (US/EUROPE) REAL - NON DROP",
-      "price" : "13",
-      "minQty" : "50",
-      "maxQty" : "3000",
-      "time" : "2hrs"
+      "serviceName" : "Youtube Likes (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 6,
-      "serviceName" : "Youtube Subscribers (US/EUROPE) REAL - NON DROP",
-      "price" : "32",
-      "minQty" : "50",
-      "maxQty" : "1500",
-      "time" : "2hrs"
+      "serviceName" : "Youtube Likes (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 7,
-      "serviceName" : "Youtube Views (US/EUROPE) REAL - NON DROP",
-      "price" : "3",
-      "minQty" : "100",
+      "serviceName" : "Youtube Likes (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
       "maxQty" : "4000",
-      "time" : "1.5hrs"
+      "time" : "72hrs"
     },
     {
       "id" : 8,
-      "serviceName" : "Youtube Comments (US/EUROPE) REAL - NON DROP",
-      "price" : "100",
-      "minQty" : "5",
-      "maxQty" : "1000",
-      "time" : "7 Days"
+      "serviceName" : "Youtube Likes (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 9,
-      "serviceName" : "Youtube Subscribers (US) REAL",
-      "price" : "30",
-      "minQty" : "1000",
+      "serviceName" : "Youtube Likes (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
       "maxQty" : "8000",
-      "time" : "6 Days"
+      "time" : "48hrs"
     },
     {
       "id" : 10,
-      "serviceName" : "Youtube Subscribers (IN) REAL",
-      "price" : "14",
-      "minQty" : "500",
-      "maxQty" : "5000",
-      "time" : "6 Days"
+      "serviceName" : "Youtube Likes (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 11,
+      "serviceName" : "Youtube Likes (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 12,
+      "serviceName" : "Youtube Likes (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 13,
+      "serviceName" : "Youtube Subscribers (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 14,
+      "serviceName" : "Youtube Subscribers (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 15,
+      "serviceName" : "- Youtube Subscribers (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 16,
+      "serviceName" : "Youtube Subscribers (ASIA) REAL - NON DROP ",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 17,
+      "serviceName" : "Youtube Subscribers (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 18,
+      "serviceName" : "- Youtube Subscribers (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 19,
+      "serviceName" : "Youtube Subscribers (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 20,
+      "serviceName" : "Youtube Subscribers (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 21,
+      "serviceName" : "- Youtube Subscribers (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 22,
+      "serviceName" : "Youtube Subscribers (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 23,
+      "serviceName" : "Youtube Subscribers (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 24,
+      "serviceName" : "- Youtube Subscribers (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 25,
+      "serviceName" : "Youtube Views (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 26,
+      "serviceName" : "Youtube Views (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 27,
+      "serviceName" : "- Youtube Views (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 28,
+      "serviceName" : "Youtube Views (ASIA) REAL - NON DROP ",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 29,
+      "serviceName" : "Youtube Views (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 30,
+      "serviceName" : "- Youtube Views (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 31,
+      "serviceName" : "Youtube Views (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 32,
+      "serviceName" : "Youtube Views (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 33,
+      "serviceName" : "- Youtube Views (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 34,
+      "serviceName" : "Youtube Views (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 35,
+      "serviceName" : "Youtube Views (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 36,
+      "serviceName" : "- Youtube Views (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     }
   ],
   "tiktok" : [
     {
       "id" : 1,
-      "serviceName" : "Tiktok Comments",
-      "price" : "6",
+      "serviceName" : "TikTok Likes (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "25minutes"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 2,
-      "serviceName" : "Tiktok UK Country Comments",
-      "price" : "6.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "8hrs"
+      "serviceName" : "TikTok Likes (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 3,
-      "serviceName" : "Tiktok SA Country Comments",
-      "price" : "5.50",
-      "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "5hrs"
+      "serviceName" : "- TikTok Likes (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 4,
-      "serviceName" : "Tiktok LB Country Comments",
-      "price" : "6",
+      "serviceName" : "TikTok Likes (ASIA) REAL - NON DROP ",
+      "price" : "$2",
       "minQty" : "1000",
-      "maxQty" : "1000",
-      "time" : "11hrs"
+      "maxQty" : "4000",
+      "time" : "72hrs"
     },
     {
       "id" : 5,
-      "serviceName" : "Tiktok Likes (US/EUROPE) REAL - NON DROP",
-      "price" : "13",
-      "minQty" : "50",
-      "maxQty" : "3000",
-      "time" : "2hrs"
+      "serviceName" : "TikTok Likes (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 6,
-      "serviceName" : "Tiktok Followers (US/EUROPE) REAL - NON DROP",
-      "price" : "32",
-      "minQty" : "50",
-      "maxQty" : "1500",
-      "time" : "2hrs"
+      "serviceName" : "TikTok Likes (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 7,
-      "serviceName" : "Tiktok Views (US/EUROPE) REAL - NON DROP",
-      "price" : "3",
-      "minQty" : "100",
+      "serviceName" : "TikTok Likes (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
       "maxQty" : "4000",
-      "time" : "1.5hrs"
+      "time" : "72hrs"
     },
     {
       "id" : 8,
-      "serviceName" : "Tiktok Comments (US/EUROPE) REAL - NON DROP",
-      "price" : "100",
-      "minQty" : "5",
-      "maxQty" : "1000",
-      "time" : "7 Days"
+      "serviceName" : "TikTok Likes (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     },
     {
       "id" : 9,
-      "serviceName" : "Tiktok Followers (US) REAL",
-      "price" : "30",
-      "minQty" : "1000",
+      "serviceName" : "TikTok Likes (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
       "maxQty" : "8000",
-      "time" : "6 Days"
+      "time" : "48hrs"
     },
     {
       "id" : 10,
-      "serviceName" : "Tiktok Followers (IN) REAL",
-      "price" : "14",
-      "minQty" : "500",
-      "maxQty" : "5000",
-      "time" : "6 Days"
+      "serviceName" : "TikTok Likes (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 11,
+      "serviceName" : "TikTok Likes (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 12,
+      "serviceName" : "TikTok Likes (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 13,
+      "serviceName" : "Youtube Followers (US/EUROPE) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 14,
+      "serviceName" : "Youtube Followers (US/EUROPE) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 15,
+      "serviceName" : "- Youtube Followers (US/EUROPE) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 16,
+      "serviceName" : "Youtube Followers (ASIA) REAL - NON DROP ",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 17,
+      "serviceName" : "Youtube Followers (ASIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 18,
+      "serviceName" : "- Youtube Followers (ASIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 19,
+      "serviceName" : "Youtube Followers (INDIA) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 20,
+      "serviceName" : "Youtube Followers (INDIA) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 21,
+      "serviceName" : "- Youtube Followers (INDIA) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 22,
+      "serviceName" : "Youtube Followers (CA/US) REAL - NON DROP",
+      "price" : "$2",
+      "minQty" : "1000",
+      "maxQty" : "4000",
+      "time" : "72hrs"
+    },
+    {
+      "id" : 23,
+      "serviceName" : "Youtube Followers (CA/US) REAL/MIXED - NON DROP",
+      "price" : "1.60",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
+    },
+    {
+      "id" : 24,
+      "serviceName" : "- Youtube Followers (CA/US) REAL/MIXED - DROP-10%",
+      "price" : "1.25",
+      "minQty" : "2000",
+      "maxQty" : "8000",
+      "time" : "48hrs"
     }
   ]
 

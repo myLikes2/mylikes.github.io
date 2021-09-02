@@ -27,11 +27,13 @@
    are added with color switches.
  - Services Table made responsive for all Screen Sizes.
  - Hover Color for Email Inputs
+ 
+ 2nd September
+ - Services JSON Updated. Ready to Go Live
 
 
 ## Upcoming
  - OG for all Pages
- - Full JSON with database
  - Call Action on each Service
 
 ## Bugs Fixed
