@@ -34,10 +34,12 @@
  
  2nd September
  - Services JSON Updated. Ready to Go Live
+ - OG for All Pages
+ - Telegram Popup Transition
+ - SASS Implementation for Popup
 
 
 ## Upcoming
- - OG for all Pages
  - Call Action on each Service
 
 ## Bugs Fixed

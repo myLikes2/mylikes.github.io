@@ -48,7 +48,7 @@ body {
 .brand-logo-container h2 {
   cursor: pointer;
   color: tomato;
-  click
+  user-select: none;
 }
 
 .brand-logo-container h2:hover {
@@ -183,7 +183,7 @@ body {
 table {
   width: 100%;
   background-color: white;
-  box-shadow: 0 3px 10px rgb(148, 146, 146);=
+  box-shadow: 0 3px 10px rgb(148, 146, 146);
 }
 
 .titles-table {
