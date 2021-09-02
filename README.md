@@ -19,12 +19,16 @@
     - Whatsapp Contact
     - Mail Contact
  - Migrated to Telegram from Whatsapp 
+
+ 26th August
  - Services for 
     - Instagram
     - Facebook
     - Youtube
     - TikTok
    are added with color switches.
+
+ 28th August
  - Services Table made responsive for all Screen Sizes.
  - Hover Color for Email Inputs
  
@@ -43,6 +47,7 @@
 > Services Table width Bug Fixed
 > Pan Image Zoom Bug Fixed
 > Speed Text Bug Fixed
+> JSON Typo Bug Fixed
 
 
 ## Live App
